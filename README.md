@@ -1,7 +1,11 @@
 # ClaudiDesa.github.io
 ClaudiDesa
-## Descr
-Este es un proyec creado con HTML, CSS  Y JAVASCRIPT.
 
-## aUTORa
-claudidesa
+## Descripcion
+Este es un proyecto creado con HTML, CSS  Y JAVASCRIPT.
+
+## Autora
+ClaudiDesa
+
+##Instalación
+Este proyecto no necesita de instalación. Sólo abre la carpeta o haz doble click en el .html
