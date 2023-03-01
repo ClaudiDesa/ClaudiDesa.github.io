@@ -1,0 +1,290 @@
+/* Importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    font-family:Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Sección Inicio */
+
+.inicio{
+    background:lightgray;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+    margin-top: 0;
+}
+
+
+.inicio .contenido-seccion header{
+    padding: 50px;
+}
+
+
+/* Menú Barra Navegacion */
+
+.inicio .contenido-seccion header nav{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: fixed;
+    margin-left: 60px;
+    background-color: blue;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+
+
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px 10px;
+}
+
+
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color: blue;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -5px;
+    letter-spacing: 2px;
+}
+
+
+
+.inicio .contenido-seccion{
+    color: black;
+    background-color: lightgrey;
+    box-shadow: 0 0 20px ;
+}
+
+/* estilos generales*/
+.titulo-seccion{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Sección Sobre Mi*/
+
+.sobremi, .educacion, .contacto, .habilidades{
+    background-color:lightgray;
+    padding: 140px 100px 0;
+    text-align: center;
+}
+
+.sobremi .contenido-seccion, .habilidades .contenido-seccion, .educacion .contenido-seccion, .contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.sobremi .contenido-seccion h3, .contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.sobremi .contenido-seccion{
+    color: black;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.sobremi .contenido-seccion .especial{
+    color: gray;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+.sobremi .contenido-seccion p{
+    max-width: 700px;
+    margin: auto;
+    color: grey;
+}
+
+.sobremi .contenido-seccion .fila, .habilidades .contenido-seccion .fila{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.sobremi .contenido-seccion .fila .col{
+    width: 30%;
+}
+
+.sobremi .contenido-seccion .fila .col i{
+    color: blue;
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.sobremi .contenido-seccion .fila .col span{
+    display:block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+
+
+/* Sección Habilidades */
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color:black ;
+}
+
+
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.habilidades .contenido-seccion .col{
+    width: 47px;
+    text-align: left;
+    color: grey;
+}
+
+/* Sección Educacion */
+
+.educacion .contenido-seccion .info{
+    text-align: left;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+
+.educacion .contenido-seccion .info .col{
+    width: 100%;
+}
+
+.educacion .contenido-seccion .info .col .titulo{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+.educacion .contenido-seccion .info .col table{
+    margin-top: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.educacion .contenido-seccion .info .col table .datos{
+    text-align: left;
+    padding: 8px;
+    font-weight:normal;
+}
+
+.educacion .contenido-seccion .info .col table h4{
+    margin-top: 10px;
+    font-weight:normal;
+}
+
+.educacion .contenido-seccion .info .col table h3{
+    font-size: 18px;    
+    margin-top: 5px;
+    font-weight:normal;
+}
+
+.educacion .contenido-seccion .info .col table descripcion{
+    border-left: 1px solid lightgrey;
+    padding-left: 18px;
+}
+
+.educacion .contenido-seccion .info .col table p{
+    margin-top: 14px;
+}
+
+/* Sección Contacto */
+
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content:space-around;
+}
+
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+
+.contacto .contenido-seccion .fila .col .h2{
+    color: blue;
+}
+
+/* Sección Responsive en linea 302, hora 1:14:34 */
+
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila, .sobremi .contenido-seccion .fila, .educacion .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .educacion .contenido-seccion .fila .col{
+        width: 90%;
+        margin: auto;
+    }
+    
+}
