@@ -8,4 +8,4 @@ Este es un proyecto creado con HTML, CSS  Y JAVASCRIPT.
 ClaudiDesa
 
 ##Instalación
-Este proyecto no necesita de instalación. Sólo abre la carpeta o haz doble click en el .html
+Este proyecto no necesita de instalación. Si quieres visitar el sitio sólo tienes que hacer Click en "Settings - Pages - Visit site".
